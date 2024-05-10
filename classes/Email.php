@@ -22,8 +22,8 @@ class Email {
         $mail->Host = 'sandbox.smtp.mailtrap.io';
         $mail->SMTPAuth = true;
         $mail->Port = 2525;
-        $mail->Username = 'a6cf844df59460';
-        $mail->Password = 'c5fbcb6d689ee0';
+        $mail->Username = '4c9e3d053a30fd';
+        $mail->Password = '08b3259ceae109';
 
         $mail->setFrom('cuantas@firmaelectronica.com');
         $mail->addAddress('cuantas@firmaelectronica.com', 'FirmaElecGt.com');
